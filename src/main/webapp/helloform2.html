@@ -11,14 +11,50 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>Formulário de HelloWorld (usando o sayhello.jsp)</div>
-           <form action="sayhello.jsp" method="post">
-           <br>Idioma: <input type="radio" name="lang" value="pt" checked> Português
-           <input type="radio" name="lang" value="en"> Inglês
-           <input type="radio" name="lang" value="fr"> Francês
-           <input type="radio" name="lang" value="de"> Alemão<br><br>
-           Nome: <input type="text" name="nome"/><br><br>
-           <input type="submit" value="Cumprimentar"/>
+        <div>Formulário de HelloWorld (usando o sayhello.jsp) FOOBAR</div>
+        <form action="sayhello.jsp" method="post">
+            <br>Idioma: 
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="lang" id="flexRadioDefault1" value="pt" checked>
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Português
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="lang" id="flexRadioDefault2" value="en" >
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Inglês
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="lang" id="flexRadioDefault3" value="fr" >
+                <label class="form-check-label" for="flexRadioDefault3">
+                    Francês
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="lang" id="flexRadioDefault4" value="de" >
+                <label class="form-check-label" for="flexRadioDefault4">
+                    Alemão
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="lang" id="flexRadioDefault5" value="jp" >
+                <label class="form-check-label" for="flexRadioDefault5">
+                    Japonês
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="lang" id="flexRadioDefault6" value="is" >
+                <label class="form-check-label" for="flexRadioDefault6">
+                    Islandês
+                </label>
+            </div>
+
+            <br><br>
+            Nome: <input type="text" name="nome"/><br><br>
+            <input type="submit" value="Cumprimentar"/>
         </form>
 
     </body>
